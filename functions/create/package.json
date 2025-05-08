@@ -1,0 +1,9 @@
+{
+  "name": "@notes/create",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.533.0",
+    "@aws-sdk/lib-dynamodb": "^3.533.0"
+  }
+}

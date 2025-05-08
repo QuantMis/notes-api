@@ -1,0 +1,14 @@
+{
+  "language": "typescript",
+  "app": "ts-node src/main.ts",
+  "terraformProviders": [
+    "aws@5.51.1",
+    "archive@2.5.0"
+  ],
+  "codeMakerOutput": "generated",
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}

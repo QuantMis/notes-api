@@ -1,0 +1,21 @@
+{
+  "name": "infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "synth": "ts-node src/main.ts && cdktf synth",
+    "deploy": "cdktf deploy --auto-approve",
+    "destroy": "cdktf destroy --auto-approve"
+  },
+  "dependencies": {
+    "cdktf": "^0.20.5",
+    "@cdktf/provider-aws": "^14.0.0",
+    "@cdktf/provider-archive": "^6.0.0",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
+  }
+}
